@@ -74,4 +74,10 @@ function draw() {
   circle(265,450,30)
   circle(235,450,30)
 
+  textSize(15)
+  strokeWeight(1)
+  stroke(0)
+  fill(0)
+  text(mouseX + "," + mouseY, 20, 20)
+
 }
