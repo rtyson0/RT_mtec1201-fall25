@@ -1,7 +1,7 @@
 //Raequan T.
 ////Simple lighting////
-////Plug the cord into the wall to turn on the light////
-
+////Plug the cord into the wall to turn on the light,////
+////as a train passes by in the background.          ////
 
 
 
