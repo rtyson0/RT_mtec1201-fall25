@@ -21,7 +21,7 @@ function draw() {
   fill(40)
   rect(700,0,100,800)
 
-  //Back of the Wall Socket
+  //Back perspective of Wall Socket
   fill(0)
   rect(700,300,100,200)
   fill(220)
@@ -40,7 +40,11 @@ function draw() {
   stroke(0)
   fill(100)
   strokeWeight(15)
-  line(-15,400,mouseX-20,mouseY)
+  fill(0,0)
+  bezier(-15,700,100,600,300,600,400,600)
+  bezier(-15,750,100,900,400,700,mouseX-20,mouseY)
+  
+  fill(100,255)
   rect(mouseX-20,mouseY-20,30,50)
  
   //Lightbulb
