@@ -21,6 +21,14 @@ function draw() {
   fill(40)
   rect(700,0,100,800)
 
+  //Back of the Wall Socket
+  fill(0)
+  rect(700,300,100,200)
+  fill(255)
+  rect(700,300,20,200)
+  rect()
+
+
   //Plug Inerstion
   strokeWeight(10)
   stroke(255)
