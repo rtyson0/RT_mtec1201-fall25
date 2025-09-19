@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  background(100,55,0);
+  background(70,20,200);
 
   strokeWeight(0)
 
@@ -66,8 +66,10 @@ function keyPressed(){
   if(key === 'm'){
   
   if(mouseX>700){
-   fill(255,0,255,100)
+   fill(255,255,0,100)
+  
    ellipse(400,100,500)
+   
   }
 }
 }
