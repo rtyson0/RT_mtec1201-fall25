@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  background(200);
+  background(100,55,0);
 
   strokeWeight(0)
 
@@ -24,9 +24,10 @@ function draw() {
   //Back of the Wall Socket
   fill(0)
   rect(700,300,100,200)
-  fill(240)
+  fill(220)
   rect(700,300,20,200)
-  rect()
+  rect(720,300,30,20)
+
 
 
   //Plug Inerstion
