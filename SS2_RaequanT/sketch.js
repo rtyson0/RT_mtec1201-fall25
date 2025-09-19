@@ -24,7 +24,7 @@ function draw() {
   //Back of the Wall Socket
   fill(0)
   rect(700,300,100,200)
-  fill(255)
+  fill(240)
   rect(700,300,20,200)
   rect()
 
@@ -37,6 +37,7 @@ function draw() {
   
   //Plug Base
   stroke(0)
+  fill(100)
   strokeWeight(15)
   line(-15,400,mouseX-20,mouseY)
   rect(mouseX-20,mouseY-20,30,50)
@@ -56,9 +57,12 @@ function draw() {
 
 
 //
-function mousePressed(){
+function keyPressed(){
+  if(key === 'm'){
+  
   if(mouseX>700){
    fill(255,0,255,100)
    ellipse(400,100,500)
   }
+}
 }
