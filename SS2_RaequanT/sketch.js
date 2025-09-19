@@ -38,12 +38,11 @@ function draw() {
   
   //Plug Base
   stroke(0)
-  fill(100)
   strokeWeight(15)
   fill(0,0)
   bezier(-15,700,100,600,300,600,400,600)
-  bezier(-15,750,100,900,400,700,mouseX-20,mouseY)
   
+  bezier(-15,750,100,900,400,700,mouseX-20,mouseY)
   fill(100,255)
   rect(mouseX-20,mouseY-20,30,50)
  
@@ -58,6 +57,16 @@ function draw() {
   strokeWeight(0)
   rect(340,180,120,50)
 
+
+
+
+
+
+  //Lighting
+  if(mouseX>700){
+   fill(255,255,0,100)
+   ellipse(400,100,500)
+  }
 }
 
 
@@ -65,11 +74,8 @@ function draw() {
 function keyPressed(){
   if(key === 'm'){
   
-  if(mouseX>700){
-   fill(255,255,0,100)
   
-   ellipse(400,100,500)
    
   }
 }
-}
+
