@@ -1,3 +1,7 @@
+///RAEQUAN T.///
+///FNF MOD REMAKE///
+
+
 let bf;
 let gf; 
 
