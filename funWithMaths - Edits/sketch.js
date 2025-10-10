@@ -16,7 +16,7 @@ function setup()
 {
 	createCanvas(1000, 600);
 	strokeWeight(0);
-	fill(random(255), random(255), random(255), 50);
+	fill(255, 255, 255, 50);
 	
 	offset = height/2;
 	yPrev = height/2;
