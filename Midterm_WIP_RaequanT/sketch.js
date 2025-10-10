@@ -19,7 +19,7 @@ function draw() {
 
   strokeWeight(0)
 
-  //wall
+  //Wall
   fill(40)
   rect(700,0,100,800)
 
@@ -33,6 +33,30 @@ function draw() {
   rect(720,480,30,20)
   rect(740,300,20,200)
  
+  //Desk
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   //Lamp Wire
   stroke(0)
@@ -55,11 +79,16 @@ function draw() {
   vertex(460,650)
   vertex(500,300)
   endShape(CLOSE);
-
+  ellipse(400,650,300,100)
   fill(230,0,130)
   triangle(340,230,460,230,500,300)
 
-if (mouseX < 700){
+
+
+
+
+
+if (mouseX < 700 && mouseY < 400){
   //Plug connectors
   strokeWeight(10)
   stroke(255)
@@ -91,7 +120,9 @@ if (mouseX < 700){
    strokeWeight(0)
    triangle(340,230,460,230,500,300)
    fill(255,255,0,100)
-   ellipse(400,100,500)
+   quad(250,200,200,700,600,700,550,200)
+
+   bezier(200,700,200,900,600,900,600,700)
   }
 
   //Lamp Shade
