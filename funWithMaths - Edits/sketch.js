@@ -1,7 +1,7 @@
 
 //Global Variables
-let amplitude = 150;
-let frequency = 0.09;
+let amplitude = 100;
+let frequency = 0.01;
 let xPos = 0;
 let yPos = 0;
 let xPrev = 0;
@@ -14,9 +14,9 @@ let b;
 
 function setup() 
 {
-	createCanvas(1000, 500);
-	strokeWeight(2);
-	fill(255, 255, 255, 50);
+	createCanvas(1000, 600);
+	strokeWeight(0);
+	fill(random(255), random(255), random(255), 50);
 	
 	offset = height/2;
 	yPrev = height/2;
@@ -32,12 +32,12 @@ function draw()
 
 	lerpAmount = map(constrain(mouseY, 0, height), 0, height, 0.1, 1.0);
 	
-  	yPos = amplitude * sin(xPos * frequency) + offset;
+  	yPos = amplitude * tan(xPos * frequency) + offset;
 	
 	yPos = lerp(yPrev, yPos, lerpAmount);
 	xPos = lerp(xPrev, xPos, lerpAmount);
 	
-	circle(xPos, yPos, 50);
+	rect(xPos, yPos, 50);
 	
 	line(xPrev, yPrev, xPos, yPos);
 	
