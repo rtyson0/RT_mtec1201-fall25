@@ -197,13 +197,14 @@ if (mouseX < 700){
 
   //Currently tweaking this
 
-  if (mouseIsPressed == true){
-   click.play()
-  }
+  
 
   
 
 }
+
+
+
 
 
 //Going to add some key pressed functions//
