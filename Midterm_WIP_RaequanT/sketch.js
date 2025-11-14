@@ -27,13 +27,13 @@ function preload(){
   
 
 
-  ambience = loadSound('Refreshing Elevator music.mp3')
-  click = loadSound('Mouse Click Sound Effect.mp3')
+  ambience = loadSound("Refreshing Elevator music.mp3")
+  click = loadSound("Mouse Click Sound Effect.mp3")
 
 
 
 
-  star = loadImage('Starbucks-Logo.wine.png')
+  star = loadImage("Starbucks-Logo.wine.png")
 }
 
 function setup() {
