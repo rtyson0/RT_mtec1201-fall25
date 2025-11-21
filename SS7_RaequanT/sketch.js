@@ -8,6 +8,9 @@ function draw() {
   background(200,230,250);
   strokeWeight(0)
 
+  
+
+  //Structure of the Background//
   fill(150,50,50)
   rect(0,340,800,130)
 
@@ -24,5 +27,10 @@ function draw() {
 
   fill(200)
   rect(0,320,800,30)
+  ///////////////////////////////
 
+
+
+
+  
 }
